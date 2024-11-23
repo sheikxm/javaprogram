@@ -17,8 +17,11 @@ public class removeconsonants {
                     result = result +ch;
                 }
             }
+            else{
+                result = result+ch;
+            }
         }
         return result;
     }
-    
+
 }
