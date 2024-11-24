@@ -16,31 +16,36 @@ public class expandstring {
 }
 
  String expand(String s1){
-    int i;
-    int count=0;
+    int i,j;
+    int counter =0;
     String words = "";
     String var = "";
     for (i=0;i<s1.length();i++){
         char ch = s1.charAt(i);
-        if (ch >= '0'&& ch <= '9'){
-            count = (int )ch - 48;
+        if ((ch >= 'A' && ch<= 'Z' || ch >='a' && ch <='z') && counter ==0){
+            var = var+ch;
+
         }
-        else{
-            var= var+ch;
-        }
-        while (count >0){
-            words = words+var;
-            count-=1;
-            if (count == 0){
-                var = "";
+        else if (ch >= 48 && ch <=57){
+            counter = counter*10+ ch-47;
+
+        }  
+        else if ((ch >= 'A' && ch<= 'Z' || ch >='a' && ch <='z') && counter >0){
+            for(j=0;j<counter;j++){
+                words = words+var;
+                
             }
-
-
+            words= "";
+            counter =0;
+            2
+            
         }
-        
- }
- return words;
+        for(j=0;j<counter;j++){
+            words = words+var;
+        }
+    }
+    return words;
+}
 }
 
-}
 
