@@ -15,11 +15,11 @@ public class righttoleftarray {
         
         int temp= arr[n-1];
 
-        for (i=0;i<n-1;i++){
-            arr2[++i] = arr[--i];
-            arr2[0] = temp; 
-    
-        }
+    for (i=0;i<n-1;i++){
+        arr2[++i] = arr[--i];
+        arr2[0] = temp; 
+
+    }
         arr2[0] = temp;
         j--;
         for (i=0;i<n;i++){

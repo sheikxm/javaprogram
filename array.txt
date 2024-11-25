@@ -1,0 +1,19 @@
+Basic Array Programs to Practice:
+
+1)Program to print prime numbers in pair (completed) 22 min
+2)program to find maximum or minimum in array. (completed) 5 Min
+3)Program to print the array in reverse count (completed 20 min)
+4)program to print left to right Rotation. (completed 15 min)
+5)Program to Swap the Array. (Completed 10 min)
+6)program to check given array in ascending order. (8 min)
+7)program to print the elements greater than the previous elements (8 min)
+8)program for bubble sort 
+9)program to perform alternate sorting or min or max sort
+10)program for remove duplicates
+11)program to find kth largest number
+12)Merge two sorted array
+13)Binary search
+14)Linear Search
+15)maximum Accurance
+16)Half Sorting
+17)Hashing
