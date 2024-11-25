@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class alternatesort {
 
-    //input 5 2 3 4 5 6 
+    // input 5= 2 3 4 5 6 
+    // 
     
     public static void main(String args[]){
         Scanner s = new Scanner(System.in);

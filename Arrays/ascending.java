@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ascending {
 public static void main(String args[]){
     Scanner s = new Scanner(System.in);
-   ascending as = new ascending();
+     ascending as = new ascending();
     int n = s.nextInt();
     int arr[] = new int[n];
     int i;
