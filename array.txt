@@ -7,13 +7,13 @@ Basic Array Programs to Practice:
 5)Program to Swap the Array. (Completed 10 min)
 6)program to check given array in ascending order. (8 min)
 7)program to print the elements greater than the previous elements (8 min)
-8)program for bubble sort 
-9)program to perform alternate sorting or min or max sort
-10)program for remove duplicates
-11)program to find kth largest number
-12)Merge two sorted array
-13)Binary search
-14)Linear Search
-15)maximum Accurance
-16)Half Sorting
-17)Hashing
+8)program for bubble sort  completed (9 min)
+9)program to perform alternate sorting or min or max sort completed (10 min)
+10)program for remove duplicates completed (40 min)
+11)program to find kth largest number completed (30 min)	
+12)Merge two sorted array (completed)
+13)Binary search completed (30 min)
+14)Linear Search completed 10 min
+15)maximum Accurance 
+16)Half Sorting 
+17)Hashing 
