@@ -9,7 +9,7 @@ public class hashing {
 
         int i;
         for(i=0;i<n;i++){
-            arr[i]= s.nextInt();
+            arr[i]= s.nextInt();    
         }
         h.hashmap(arr);
         }
@@ -31,7 +31,7 @@ public class hashing {
 
     
         for(i=0;i<=max;i++){
-            if(hash[i]>0){
+            if(hash[i]==1){
             System.out.print( i+ ":"+ hash[i] + " " + "Times"+ " " );
             }
         }
